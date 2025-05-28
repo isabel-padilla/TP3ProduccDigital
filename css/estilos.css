@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #182025;
+  background-color: #FAF3E0;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #F3E9DD;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.8em;
+  color: #182025;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C84B31;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #cd0c02;
+}
+
+.galeria {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.galeria h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #cd0c02;
+}
+
+.platos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plato {
+  width: 250px;
+}
+
+.plato img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 10px;
+}
+
+.plato p a {
+  color: #182025;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.plato p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #3C3C3C;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+main img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.boton {
+  background-color: #C84B31;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #a43e28;
+}
+
+section {
+  margin-bottom: 15px;
+  padding: 4px 0;
+}
+
+p {
+  margin-bottom: 6px;
+}
+
+h2, h3 {
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+ul, ol {
+  margin-bottom: 10px;
+  padding-left: 18px;
+}
